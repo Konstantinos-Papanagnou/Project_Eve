@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<config>
+  <Intent name="StartApp">
+    <Variables>
+      <Variable name="mozzila|firefox">firefox.exe</Variable>
+      <Variable name="chrome">chrome.exe</Variable>
+      <Variable name="Code Expert">C:\Program Files (x86)\Pap Industries\Code Expert\Code Expert.exe</Variable>
+    </Variables>
+  </Intent>
+  <Intent name="Shutdown">
+    <Variables>
+      <Variable name="shutdown">/s /f /t 20</Variable>
+      <Variable name="restart">/r /f /t 20</Variable>
+      <Variable name="hibernation|hibernate|sleep">/h /f /t 20</Variable>
+    </Variables>
+  </Intent>
+  <Intent name="StopShutdown">
+    <Variables>
+      <Variable name="shutdown|restart|hibernation|sleep">/a</Variable>
+    </Variables>
+  </Intent>
+  <Intent name="Search">
+    <Variables>
+      <Variable name="google">http://google.com/search?q=</Variable>
+      <Variable name="stack overflow">https://www.stackoverflow.com/search?q=</Variable>
+      <Variable name="reddit">https://www.reddit.com/search/?q=</Variable>
+      <Variable name="wikipedia">https://en.wikipedia.org/wiki/Special:Search?search=</Variable>
+      <Variable name="youtube">https://www.youtube.com/results?search_query=</Variable>
+    </Variables>
+  </Intent>
+  <Intent name="DateTime">
+    <Variables>
+      <Variable name="day">day</Variable>
+      <Variable name="time">time</Variable>
+      <Variable name="year">year</Variable>
+      <Variable name="date">date</Variable>
+      <Variable name="month">month</Variable>
+    </Variables>
+  </Intent>
+  <Intent name="HandleVoiceMixer">
+    <Variables>
+      <Variable name="unmute">unmute</Variable>
+      <Variable name="mute">mute</Variable>
+      <Variable name="change volume">change volume</Variable>
+      <Variable name="set volume">set volume</Variable>
+    </Variables>
+  </Intent>
+</config>
