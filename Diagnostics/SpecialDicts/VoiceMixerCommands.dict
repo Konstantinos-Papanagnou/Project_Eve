@@ -1,0 +1,14 @@
+[
+	{
+		"IntentTriggers": [
+			"set volume to {X}",
+			"{X}",
+			"change volume to {X}"
+		],
+		"Intent": "Volume RawVariables",
+		"DefaultReplies": [
+			"Setting Volume to {X}",
+			"Changing Volume to {X}"
+		]
+	}
+]

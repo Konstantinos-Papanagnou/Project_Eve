@@ -1,0 +1,61 @@
+[
+	{
+		"IntentTriggers":[
+			"stop",
+			"enough",
+			"silence",
+			"stop talking"
+		],
+		"Intent": "Stop",
+		"DefaultReplies":[
+			"Sorry",
+			"Okay, sorry."
+		]
+	},
+	{
+		"IntentTriggers":[
+			"search",
+			"search one more thing",
+			"another search",
+			"search again"
+		],
+		"Intent": "Another",
+		"DefaultReplies":[
+			"Okay, what do you need?",
+			"Just tell me what you need.",
+			"Sure, what should i search for?",
+			"What should i search for this time?"
+		]
+	},
+	{
+		"IntentTriggers":[
+			"okay that's all",
+			"we are good for now",
+			"exit this mode",
+			"exit",
+			"quit",
+			"quit mode"
+		],
+		"Intent": "Quit",
+		"DefaultReplies":[
+			"Okay, going back to normal status",
+			"As you wish",
+			"Ok"
+		]
+	},
+	{
+		"IntentTriggers":[
+			"change search engine to {X}",
+			"set search engine {X}",
+			"search on {X}",
+			"switch to {X}",
+			"set {X} as search engine"
+		],
+		"Intent": "Search",
+		"DefaultReplies":[
+			"Switching to {X}",
+			"Changing search engine to {X}",
+			"Setting search engine to {X}"
+		]
+	}
+]

@@ -1,0 +1,14 @@
+[
+	{
+		"IntentTriggers": [
+			"in {X} seconds",
+			"in {X} minutes",
+			"in {X} hours"
+		],
+		"Intent": "Volume RawVariables",
+		"DefaultReplies": [
+			"I will notify you in {X}",
+			"Setting timer for {X}"
+		]
+	}
+]
